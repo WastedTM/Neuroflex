@@ -1,0 +1,1727 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <link
+    rel='icon'
+    type='image/png'
+    href='./favicon/favicon-96x96.png'
+    sizes='96x96'
+  />
+  <link rel='icon' type='image/svg+xml' href='./favicon/favicon.svg' />
+  <link rel='shortcut icon' href='./favicon/favicon.ico' />
+  <link
+    rel='apple-touch-icon'
+    sizes='180x180'
+    href='./favicon/apple-touch-icon.png'
+  />
+  <link rel='manifest' href='./favicon/site.webmanifest' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+
+  <!-- Open Graph Protocol -->
+  <meta property='og:title' content='Cryptolly' />
+  <meta
+    property='og:description'
+    content='Modern cryptocurrency platform with rich user interface and interactive elements'
+  />
+  <meta property='og:type' content='website' />
+  <meta property='og:url' content='https://cryptolly-three.vercel.app/' />
+  <meta property='og:image' content='/ogp.png' />
+  <meta property='og:image:width' content='1200' />
+  <meta property='og:image:height' content='630' />
+  <meta property='og:site_name' content='Cryptolly' />
+
+  <!-- Twitter Card -->
+  <meta name='twitter:card' content='summary_large_image' />
+  <meta name='twitter:title' content='Cryptolly' />
+  <meta
+    name='twitter:description'
+    content='Modern cryptocurrency platform with rich user interface and interactive elements'
+  />
+  <meta name='twitter:image' content='./ogp.png' />
+
+  <title>Cryptolly</title>
+  <link
+    rel='stylesheet'
+    href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css'
+  />
+  <script type='module' crossorigin src='./assets/index-BIvAx_ux.js'></script>
+  <link rel='stylesheet' crossorigin href='./assets/index-B68Scrdy.css'>
+</head>
+<body>
+<header>
+  <div class='container header__container'>
+    <a href='/'
+    ><img src='./img/logo.svg' alt='logo' class='header__logo'
+    /></a>
+    <button
+      type='button'
+      aria-label='Menu'
+      class='header__burger'
+      data-mobile-open
+    >
+      <svg width='32' height='33'>
+        <use href='./img/sprite.svg#burger' />
+      </svg>
+    </button>
+
+    <nav class='header__nav'>
+      <ul class='header__nav-list'>
+        <li class='header__nav-item'>
+          <a href='#about'>Followers</a>
+        </li>
+        <li class='header__nav-item'>
+          <a href='#service'>Boosters</a>
+        </li>
+        <li class='header__nav-item'>
+          <a href='#token'>Catalysts</a>
+        </li>
+        <li class='header__nav-item'>
+          <a href='#faq'>Admins</a>
+        </li>
+        <li class='header__nav-item'>
+          <a href='#team'>Course</a>
+        </li>
+        <li class='header__nav-item'>
+          <a href='#blog'>Cases</a>
+        </li>
+        <li class='header__nav-item'>
+          <a href='#blog'>Rates</a>
+        </li>
+        <li class='header__nav-item'>
+          <a href='#blog'>Community</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button type='button' class='header__btn'>Write</button>
+  </div>
+</header>
+
+<main>
+  <section class='hero'>
+    <div class='hero-bg'>
+      <picture>
+        <source
+          srcset='
+          ./img/hero/bitcoin-1-mobile.webp    1x,
+          ./img/hero/bitcoin-1-mobile@2x.webp 2x
+        '
+          media='(max-width: 1439px)'
+        />
+        <source
+          srcset='
+          ./img/hero/bitcoin-1-desktop.webp    1x,
+          ./img/hero/bitcoin-1-desktop@2x.webp 2x
+        '
+          media='(min-width: 1440px)'
+        />
+        <img
+          src='./img/hero/bitcoin-1-mobile.webp'
+          alt='bitcoin'
+          class='hero__img-1'
+        />
+      </picture>
+
+      <picture>
+        <source
+          srcset='
+          ./img/hero/bitcoin-2-mobile.webp    1x,
+          ./img/hero/bitcoin-2-mobile@2x.webp 2x
+        '
+          media='(max-width: 1439px)'
+        />
+        <source
+          srcset='
+          ./img/hero/bitcoin-2-desktop.webp    1x,
+          ./img/hero/bitcoin-2-desktop@2x.webp 2x
+        '
+          media='(min-width: 1440px)'
+        />
+        <img
+          src='./img/hero/bitcoin-2-mobile.webp'
+          alt='bitcoin'
+          class='hero__img-2'
+        />
+      </picture>
+
+      <picture>
+        <source
+          srcset='
+          ./img/hero/etherium-mobile.webp    1x,
+          ./img/hero/etherium-mobile@2x.webp 2x
+        '
+          media='(max-width: 1439px)'
+        />
+        <source
+          srcset='
+          ./img/hero/etherium-desktop.webp    1x,
+          ./img/hero/etherium-desktop@2x.webp 2x
+        '
+          media='(min-width: 1440px)'
+        />
+        <img
+          src='./img/hero/etherium-mobile.webp'
+          alt='etherium'
+          class='hero__img-3'
+        />
+      </picture>
+    </div>
+    <div class='container hero__container'>
+      <div class='hero__items'>
+        <div class='hero__item-1'>
+          <p class='hero__item-text'>
+            <span>350+</span> <br />Project collaborations
+          </p>
+          <picture>
+            <source
+              srcset='./img/hero/avatars-1.webp 1x, ./img/hero/avatars-1@2x.webp 2x'
+              media='(max-width: 1439px)'
+            />
+            <source
+              srcset='
+              ./img/hero/avatars-1-desktop.webp    1x,
+              ./img/hero/avatars-1-desktop@2x.webp 2x
+            '
+              media='(min-width: 1440px)'
+            />
+            <img
+              src='./img/hero/avatars-1.webp'
+              alt='avatars'
+              class='hero__item-img'
+            />
+          </picture>
+        </div>
+        <div class='hero__item-2'>
+          <p class='hero__item-text hero__item-text-2'>
+            <span>800+</span> <br />Expert connect
+          </p>
+          <img
+            srcset='./img/hero/avatars-2.webp 1x, ./img/hero/avatars-2@2x.webp 2x'
+            src='./img/hero/avatars-2.webp'
+            alt='avatars'
+            class='hero__item-img'
+          />
+        </div>
+        <div class='hero__item-1 hero__item-3'>
+          <p class='hero__item-text'>
+            <span>1500+</span> Advertising integrations
+          </p>
+          <picture>
+            <source
+              srcset='./img/hero/avatars-3.webp 1x, ./img/hero/avatars-3@2x.webp 2x'
+              media='(max-width: 1439px)'
+            />
+            <source
+              srcset='
+              ./img/hero/avatars-3-desktop.webp    1x,
+              ./img/hero/avatars-3-desktop@2x.webp 2x
+            '
+              media='(min-width: 1440px)'
+            />
+            <img
+              src='./img/hero/avatars-3.webp'
+              alt='avatars'
+              class='hero__item-img'
+            />
+          </picture>
+        </div>
+      </div>
+      <div class='hero__title-container'>
+        <h1 class='hero__title'>
+          Commercial Digital<br />
+          <span>Community</span>
+        </h1>
+        <span class='hero__title-text'> Smart-development </span>
+        <p class='hero__title-description'>
+          A community based on an Al-system that replaces primitive
+          communication with smart solutions, improving the productivity and efficiency of
+          projects.
+        </p>
+      </div>
+
+      <button type='button' class='hero__button'>Subscription</button>
+    </div>
+  </section>
+
+  <section id='token' class='token'>
+    <div class='container token__container'>
+      <div class='token__wrapper-title'>
+        <p class='section-name'>Followers</p>
+        <h2 class='section-title'>Key community residents</h2>
+        <p class='token__description'>
+          Join a community of
+          <br />professionals.
+        </p>
+      </div>
+
+      <ul class='token__list'>
+        <li class='token__item'>
+          <h3 class='token__item-title'>To specialists and experts</h3>
+          <p class='token__item-description'>
+            The community values professionalism, results and development. Here you will find space to practice, grow
+            and
+            share your experience. Participate in commercial projects and apply your skills on real cases.
+          </p>
+        </li>
+        <li class='token__item'>
+          <h3 class='token__item-title'>Bloggers and marketers</h3>
+          <p class='token__item-description'>
+            The community values professionalism, results and development. Here you will find space to practice, grow
+            and
+            share your experience. Participate in commercial projects and apply your skills on real cases.
+          </p>
+        </li>
+        <li class='token__item'>
+          <h3 class='token__item-title'>Executives and entrepreneurs</h3>
+          <p class='token__item-description'>
+            The community values professionalism, results and development. Here you will find space to practice, grow
+            and
+            share your experience. Participate in commercial projects and apply your skills on real cases.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class='container'>
+      <div class='vertical-slider__wrapper-title'>
+        <p class='section-name'>Boosters</p>
+        <h2 class='section-title'>Drivers of development</h2>
+        <p class='vertical-slider__description'>
+          Together, risks become points of<br />
+          growth.
+        </p>
+      </div>
+      <div class='vertical-slider__container'>
+        <div class='vertical-slider__content'>
+          <div class='vertical-slider__header'>
+            <h3 class='vertical-slider__title-active' id='slider-title'>
+              Drivers of development
+            </h3>
+          </div>
+
+          <div class='vertical-slider__wrapper'>
+            <div class='vertical-slider__slides' tabindex='0'>
+              <div
+                class='vertical-slider__slide'
+                data-title='Lörem ipsum dorade boktig till geosylig postmodern.1'
+              >
+                <p>Inside the community you will find exclusive strategies and business schemes that are not available
+                  in
+                  the public domain. This is knowledge that really works. 1.</p>
+              </div>
+              <div
+                class='vertical-slider__slide'
+                data-title='Lörem ipsum dorade boktig till geosylig postmodern.2'
+              >
+                <p>Work with top platforms, tools and enterprise systems while gaining concentrated professional
+                  experience.
+                  2.</p>
+              </div>
+              <div
+                class='vertical-slider__slide'
+                data-title='Lörem ipsum dorade boktig till geosylig postmodern.3'
+              >
+                <p>The ability to organise your activities in a systematic way, rather than just accumulating disparate
+                  knowledge. 3.</p>
+              </div>
+              <div
+                class='vertical-slider__slide'
+                data-title='Lörem ipsum dorade boktig till geosylig postmodern.4'
+              >
+                <p>You will be in a community of successful entrepreneurs, experts and bloggers, which will become a
+                  driver
+                  of your professional and career growth. 4.</p>
+              </div>
+              <div
+                class='vertical-slider__slide'
+                data-title='Lörem ipsum dorade boktig till geosylig postmodern.5'
+              >
+                <p>Participants of the community evaluate their knowledge differently, form a strategy for career growth
+                  and
+                  systematically develop their competences. 5.</p>
+              </div>
+              <div
+                class='vertical-slider__slide'
+                data-title='Lörem ipsum dorade boktig till geosylig postmodern.6'
+              >
+                <p>The community helps participants not just work, but systematically organise processes, increasing
+                  efficiency and productivity. 6.</p>
+              </div>
+              <div
+                class='vertical-slider__slide'
+                data-title='Lörem ipsum dorade boktig till geosylig postmodern.7'
+              >
+                <p>Use proven tools and strategies for rapid professional growth. In the community you get practical
+                  experience and access to business cases valuable in the market. 7.</p>
+              </div>
+              <div
+                class='vertical-slider__slide'
+                data-title='Lörem ipsum dorade boktig till geosylig postmodern.8'
+              >
+                <p>Build a professional system where solutions are systematised once and then they work for you, not the
+                  other way around. 8.</p>
+              </div>
+              <div
+                class='vertical-slider__slide'
+                data-title='Lörem ipsum dorade boktig till geosylig postmodern.9'
+              >
+                <p>If you're fed up with endless internships, join a community where you'll get real commercial
+                  experience
+                  and strong financial results. 9.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id='service'>
+    <div class='service__wrapper-title'>
+      <p class='section-name'>Catalysts</p>
+      <h2 class='section-title'>Systemic growth accelerators</h2>
+      <p class='service__description'>
+        Effective mechanisms for accelerating<br />
+        development
+      </p>
+    </div>
+
+    <div class='container services__container'>
+      <ul class='services__list'>
+        <li class='services__item-wrapper services__item-wrapper-bg-odd'>
+          <div class='services__item'>
+            <svg class='services__item-icon' width='50' height='50' viewBox='0 0 45 45' fill='none'
+                 xmlns='http://www.w3.org/2000/svg'
+                 xmlns:xlink='http://www.w3.org/1999/xlink'>
+              <rect width='45' height='45' fill='url(#pattern0_10_3514)' />
+              <defs>
+                <pattern id='pattern0_10_3514' patternContentUnits='objectBoundingBox' width='1' height='1'>
+                  <use xlink:href='#image0_10_3514' transform='scale(0.0104167)' />
+                </pattern>
+                <image id='image0_10_3514' width='96' height='96' preserveAspectRatio='none'
+                       xlink:href='data:image/png;base64,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' />
+              </defs>
+            </svg>
+            <h2 class='services__item-title'>AI-system</h2>
+            <hr class='services__item-line' />
+            <p class='services__item-description'>
+              An intelligent system within the community multiplies the efficiency of teams, automates processes and
+              helps
+              achieve strong results.
+            </p>
+          </div>
+        </li>
+        <li class='services__item-wrapper services__item-wrapper-bg-even'>
+          <div class='services__item'>
+            <svg class='services__item-icon' width='50' height='50' viewBox='0 0 45 45' fill='none'
+                 xmlns='http://www.w3.org/2000/svg'
+                 xmlns:xlink='http://www.w3.org/1999/xlink'>
+              <rect width='45' height='45' fill='url(#pattern0_10_3519)' />
+              <defs>
+                <pattern id='pattern0_10_3519' patternContentUnits='objectBoundingBox' width='1' height='1'>
+                  <use xlink:href='#image0_10_3519' transform='scale(0.0104167)' />
+                </pattern>
+                <image id='image0_10_3519' width='96' height='96' preserveAspectRatio='none'
+                       xlink:href='data:image/png;base64,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' />
+              </defs>
+            </svg>
+            <h2 class='services__item-title'>Task decomposition</h2>
+            <hr class='services__item-line' />
+            <p class='services__item-description'>
+              The community decomposes tasks by structuring them into sequential steps, which provides transparency of
+              workflows and accelerates the achievement of targeted results.
+            </p>
+          </div>
+        </li>
+        <li class='services__item-wrapper services__item-wrapper-bg-odd'>
+          <div class='services__item'>
+            <svg class='services__item-icon' width='50' height='50' viewBox='0 0 45 46' fill='none'
+                 xmlns='http://www.w3.org/2000/svg'
+                 xmlns:xlink='http://www.w3.org/1999/xlink'>
+              <rect y='0.5' width='45' height='45' fill='url(#pattern0_10_3524)' />
+              <defs>
+                <pattern id='pattern0_10_3524' patternContentUnits='objectBoundingBox' width='1' height='1'>
+                  <use xlink:href='#image0_10_3524' transform='scale(0.0104167)' />
+                </pattern>
+                <image id='image0_10_3524' width='96' height='96' preserveAspectRatio='none'
+                       xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAADWElEQVR4nO2dS04UURSGOwxEXAEy8hXXoCZKEN2McYIaZQEOGPuIiLtw0BGNRhPdgSIr0EQUn6iMPlOhBtCpaqu67rnnVtX/TQl/n3u+6urKhT53MBBCCCGEEEIIIcR/AC4Dj4BN4Bfj+QtcKMlZANaA9xVyQvIBWAGmWyUbOA28qrnYKwU5J4Hn+DNsjYTsKga2ay7wNTA1knMO+Ew6DJOXkF/5dZufsVhw5afU/HZImOC2k/G2ICeF2067JOQfuJNweyTnIukzTE5C/rRTxC5wE5irmJM97RTxB1gCZo3X0U4J+aNmEbcC5SzZVX/g9WmlBOBnSZFHA+XM2lV/4PXr8gQ4HKO2iQr3yokoIA0JPRAwTPp21AMBh4DHyb4Tui5gsPezdCX0QUDSEvoiIFkJfRKQpIS+CUhOQh8FJCWhrwKSkdBnAUlI6LsAdwkdEvCjyWagm4QOCdgsKeFajYzp6HtHHRLwcMwfhK5V3V6PLqFDAhaISxgJZeleOU0AnhGXlRBFF+KV0wTgGPCJeHwMUXSQxoXKaQpwFtgya3no9YUKNitwAoDjwFOzrodcX6hgswIbAMwDq8DGmH8akIA2oHeAMxLgjAQ4IwHOSIAzEuCMBDgjAc5IgDOdFwAcAe4D37DnK3APmIndJ7Pgpjns7dnEZjV2n8yCm+QAU8Bv4rMz+j1n6z6ZBTfJQQJ8BTjegh4MKlIWUPX3zYOb5gAzwN38A9KabCrAHX0It4imF5h5sFmBiSABzkiAMxLgjAQ4IwHOSIAznReAzW5o7V1Pq/WZBye+FbFauzGB12cenPhm3E7VXU+L9UUJbpKDBPgKiHALqrzrabU+8+BEd0O36+56Wq3PPNiswESQAGckwBkJcEYCnJEAZySgwwLKvj04F3NaScpkvShZ23fLKSPLsaeVpApwo2RtGyHC18aMr1+uMb4+yLSSlMhqBq7nBxWZbHFkL3KJMAc4xJ5WkgKFp0dNIuFloCNMYk8r8WQ9SPP3zVbYCnCIT+xpJV5kBxWdCCYgb9554EvNQt4UHGMVdVqJA9kFdiZo8/c17xTwomZBVz2nlURmPXuXmzR/pIGL+VNNlSkju2OOMpy3nlZiTFbzu+xpJ9gHrhBCCCGEEEIIMegy/wDcQKWz9GoEGgAAAABJRU5ErkJggg==' />
+              </defs>
+            </svg>
+            <h2 class='services__item-title'>Scalable projects</h2>
+            <hr class='services__item-line' />
+            <p class='services__item-description'>
+              The community develops scalable commercial projects with high profit margins. Participants implement
+              effective models and achieve sustainable results.
+            </p>
+          </div>
+        </li>
+        <li class='services__item-wrapper services__item-wrapper-bg-even'>
+          <div class='services__item'>
+            <svg class='services__item-icon' width='50' height='50' viewBox='0 0 45 45' fill='none'
+                 xmlns='http://www.w3.org/2000/svg'
+                 xmlns:xlink='http://www.w3.org/1999/xlink'>
+              <rect width='45' height='45' fill='url(#pattern0_10_3530)' />
+              <defs>
+                <pattern id='pattern0_10_3530' patternContentUnits='objectBoundingBox' width='1' height='1'>
+                  <use xlink:href='#image0_10_3530' transform='scale(0.00666667)' />
+                </pattern>
+                <image id='image0_10_3530' width='150' height='150' preserveAspectRatio='none'
+                       xlink:href='data:image/png;base64,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' />
+              </defs>
+            </svg>
+
+            <h2 class='services__item-title'>Digital systems</h2>
+            <hr class='services__item-line' />
+            <p class='services__item-description'>
+              Advanced tools for effective project management: digitalisation of processes, data integration strategy
+              and
+              systematic team coordination.
+            </p>
+          </div>
+        </li>
+        <li class='services__item-wrapper services__item-wrapper-bg-odd'>
+          <div class='services__item'>
+            <svg class='services__item-icon' width='50' height='50' viewBox='0 0 45 45' fill='none'
+                 xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+              <rect width='45' height='45' fill='url(#pattern0_10_3535)' />
+              <defs>
+                <pattern id='pattern0_10_3535' patternContentUnits='objectBoundingBox' width='1' height='1'>
+                  <use xlink:href='#image0_10_3535' transform='scale(0.00666667)' />
+                </pattern>
+                <image id='image0_10_3535' width='150' height='150' preserveAspectRatio='none'
+                       xlink:href='data:image/png;base64,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' />
+              </defs>
+            </svg>
+
+            <h2 class='services__item-title'>Process Automation</h2>
+            <hr class='services__item-line' />
+            <p class='services__item-description'>
+              The community creates and automates business processes, adapting them to the market to ensure sustainable
+              financial growth.
+            </p>
+          </div>
+        </li>
+        <li class='services__item-wrapper services__item-wrapper-bg-even'>
+          <div class='services__item'>
+            <svg class='services__item-icon' width='50' height='50' viewBox='0 0 45 45' fill='none'
+                 xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+              <rect width='45' height='45' fill='url(#pattern0_10_3540)' />
+              <defs>
+                <pattern id='pattern0_10_3540' patternContentUnits='objectBoundingBox' width='1' height='1'>
+                  <use xlink:href='#image0_10_3540' transform='scale(0.00666667)' />
+                </pattern>
+                <image id='image0_10_3540' width='150' height='150' preserveAspectRatio='none'
+                       xlink:href='data:image/png;base64,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' />
+              </defs>
+            </svg>
+
+            <h2 class='services__item-title'>Safe And Secure</h2>
+            <hr class='services__item-line' />
+            <p class='services__item-description'>
+              Access to systematised analytics solutions, proven methodologies and tools for fast data analysis and
+              effective project management.
+
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id='team'>
+    <div class='container team__container'>
+      <div class='team__wrapper-title'>
+        <p class='section-name'>Admins</p>
+        <h2 class='section-title team__title'>Top community experts</h2>
+        <p class='team__description'>
+          Be where the systemic <br />
+          results.
+        </p>
+      </div>
+
+      <div class='team__slider-container'>
+        <div class='team__slide-border'>
+          <div class='team__slide-profile'>
+            <img
+              id='profile-image'
+              srcset='./img/team/team-1.webp 1x, ./img/team/team-1@2x.webp 2x'
+              src='./img/team/team-1.webp'
+              alt='William Wilson'
+              class='team__slide-profile-img'
+              loading='lazy'
+            />
+            <div class='team__slide-profile-info'>
+              <h3 id='profile-title' class='team__slide-profile-info-title'>
+                Expert in task decomposition
+              </h3>
+              <p id='profile-name' class='team__slide-profile-info-name'>
+                Roman Kirilenko
+              </p>
+              <p id='profile-subtitle' class='team__slide-profile-info-subtitle'>
+                Fullstack developer in Java
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class='team__slide-border-info'>
+          <div class='team__slide-info'>
+            <div class='team__slide-info-wrapper'>
+              <h4 id='info-title' class='team__slide-info-title'>
+                Community manager in task decomposition
+              </h4>
+              <p id='info-subtitle' class='team__slide-info-subtitle'>
+                Tincidunt vitae semper quis lectus nulla.
+              </p>
+              <div class='team__slide-info-rating'>
+                <svg width='11' height='10'>
+                  <use href='./img/sprite.svg#star-5' />
+                </svg>
+                <svg width='11' height='10'>
+                  <use href='./img/sprite.svg#star-5' />
+                </svg>
+                <svg width='11' height='10'>
+                  <use href='./img/sprite.svg#star-5' />
+                </svg>
+                <svg width='11' height='10'>
+                  <use href='./img/sprite.svg#star-5' />
+                </svg>
+                <svg width='11' height='10'>
+                  <use href='./img/sprite.svg#star-5' />
+                </svg>
+              </div>
+            </div>
+            <p id='info-description' class='team__slide-info-description'>
+              The community brings together professionals who jointly develop commercial projects, achieving new levels
+              of
+              profit. For this purpose, advanced management tools are used: process automation, analytics and task
+              decomposition.
+            </p>
+            <img
+              src='/img/quotes.svg'
+              width='99'
+              height='99'
+              alt='quotes'
+              class='team__quote-icon'
+              loading='lazy'
+            />
+          </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button
+          class='team__slide-nav-button team__slide-prev-button'
+          aria-label='Previous'
+        >
+          <svg width='25' height='25'>
+            <use href='./img/sprite.svg#arrow-left' />
+          </svg>
+        </button>
+
+        <div class='team__slide-navigation'>
+          <div class='team__slide-nav-dot active' data-index='0'></div>
+          <div class='team__slide-nav-dot' data-index='1'></div>
+          <div class='team__slide-nav-dot' data-index='2'></div>
+        </div>
+
+        <button
+          class='team__slide-nav-button team__slide-next-button'
+          aria-label='Next'
+        >
+          <svg width='25' height='25'>
+            <use href='./img/sprite.svg#arrow-right' />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id='blog'>
+    <div class='container modules__container'>
+      <div class='modules__wrapper-title'>
+        <p class='section-name'>Course</p>
+        <h2 class='section-title'>Neural Networks and
+          Task Automation 3.0</h2>
+        <p class='modules__description'>
+          Materials on digital specialities and programming
+          are attached to the course.
+        </p>
+      </div>
+
+      <ul class='modules__list'>
+        <li class='modules__item'>
+          <button
+            type='button'
+            class='modules__item-header'
+            aria-label='Open module 1'
+          >
+            <span class='modules__item-title'>Module 1: Fundamentals of Neural Networks</span>
+            <svg width='29' height='29'>
+              <use href='./img/sprite.svg#arrow-right'></use>
+            </svg>
+          </button>
+          <p class='modules__item-description'>
+            Building an AI system to automate routine tasks
+          </p>
+          <h3 class='modules__item-title-btn'>Topics of study in the module:</h3>
+          <div class='modules__item-btn-wrapper'>
+            <button
+              type='button'
+              class='modules__item-btn bg-btn-one'
+              data-description='This section of the course will teach you how to create effective prompts for interacting with AI by optimising
+the style, structure and depth of responses.<br/>
+<br/>
+Lesson 1: Fundamentals of Prompt Engineering<br/>
+Lesson 2: Methods and techniques for effective prompting<br/>
+Lesson 3: Prompts for different tasks and niches<br/>
+Lesson 4: Tools and Practices<br/>
+<br/>
+Participants will master the principles of Prompt Engineering, learn how to develop and optimise Prompts for AI
+ and use them in different tasks.'
+              aria-label='Open module 1'
+            >
+              Prompting
+              <svg width='9' height='9'>
+                <use href='./img/sprite.svg#arrow-right'></use>
+              </svg>
+            </button>
+            <button
+              type='button'
+              class='modules__item-btn bg-btn-two'
+              data-description='This section of the course will teach how to use neural networks to optimise workflows in marketing, design
+and programming, improving productivity and quality.<br/>
+<br/>
+Lesson 1: ChatGPT, Gemini, Claude - content and script generation<br/>
+Lesson 2: Midjourney, Leonardo AI - creating advertising images<br/>
+Lesson 3: Make, Zapier - automate processes<br/>
+Lesson 4: Segment, CrystalKnows - audience analysis<br/>
+Lesson 5: Segment, Persado - optimise content and ads<br/>
+Lesson 6: Tabnine, Cursor AI, PolyCoder, Mutable AI - working with code<br/>
+Lesson 7: ElevenLabs, PlayHT - speech synthesis and creating voice avatars<br/>
+Lesson 8: Runway ML, Pika Labs, Synthesia - working with video<br/>
+Lesson 9: Uizard, Framer AI, Webflow - web design.<br/>
+<br/>
+Participants will learn the best neural network tools for content creation, improving marketing campaigns, <br/>
+task automation, development and design, speech and video synthesis, and will be introduced to other top neural networks in each area.'
+              aria-label='Open module 1'
+            >
+              Neuronkey
+              <svg width='9' height='9'>
+                <use href='./img/sprite.svg#arrow-right'></use>
+              </svg>
+            </button>
+            <button
+              type='button'
+              class='modules__item-btn bg-btn-three'
+              data-description='This section of the course will teach how to collect, process and structure information using neural networks <br/>
+and AI tools to analyse data and extract insights in real time.<br/>
+<br/>
+Lesson 1: Fundamentals of Information Gathering with Neural Networks<br/>
+Lesson 2: Technologies and tools for information gathering<br/>
+Lesson 3: Practice: automating data collection<br/>
+Lesson 4: Optimising and analysing collected data<br/>
+<br/>
+This section will enable you to accelerate and automate the collection of information for business, marketing, <br/>
+analytics, research, and other tasks.
+'
+              aria-label='Open module 1'
+            >
+              Scraping
+              <svg width='9' height='9'>
+                <use href='./img/sprite.svg#arrow-right'></use>
+              </svg>
+            </button>
+            <button
+              type='button'
+              class='modules__item-btn bg-btn-three'
+              data-description='This section of the course will teach you how to use neural networks to analyse data, integrate them into <br/>
+workflows and set up APIs to retrieve and analyse information without programming.<br/>
+<br/>
+Lesson 1: Fundamentals of analytics with AI<br/>
+Lesson 2: Tools for data analysis and visualisation<br/>
+Lesson 3: Hands-on: Data Analytics with Neural Networks<br/>
+Lesson 4: Simple API setup for analytics<br/>
+Lesson 5: Optimising analytics and decision making with AI<br/>
+<br/>
+This section will help you automate your data, find insights quickly, and use AI effectively in business, marketing, and research.'
+            >
+              Analytics
+              <svg width='9' height='9'>
+                <use href='./img/sprite.svg#arrow-right'></use>
+              </svg>
+            </button>
+            <button
+              type='button'
+              class='modules__item-btn bg-btn-three'
+              data-description='This section of the course will teach you how to use neural networks to organise and filter data, and integrate AI tools to automate information structuring without programming.<br/>
+<br/>
+Lesson 1: Fundamentals of structuring data with AI<br/>
+Lesson 2: Off-the-shelf neural network tools for data structuring<br/>
+Lesson 3: Practice: automating data structuring<br/>
+Lesson 4: Simple API setup for data structuring<br/>
+Lesson 5: Optimising and speeding up your work with information<br/>
+<br/>
+This section will help you simplify the way you work with information, structure large data sets quickly, and automate key processes with AI. <br/>'
+            >
+              Systematisation
+              <svg width='9' height='9'>
+                <use href='./img/sprite.svg#arrow-right'></use>
+              </svg>
+            </button>
+          </div>
+          <div class='modules__item-description-wrapper'>
+            <p class='modules__item-description-btn'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button
+              type='button'
+              class='modules__item-btn-close'
+              aria-label='Close module 1'
+            >
+              <svg width='16' height='16'>
+                <use href='./img/sprite.svg#close' />
+              </svg>
+            </button>
+          </div>
+        </li>
+        <li class='modules__item'>
+          <button
+            type='button'
+            class='modules__item-header'
+            aria-label='Open module 2'
+          >
+            <span class='modules__item-title'>Module 2: Process Automation</span>
+            <svg width='29' height='29'>
+              <use href='./img/sprite.svg#arrow-right'></use>
+            </svg>
+          </button>
+          <p class='modules__item-description'>
+            Automating workflows with neural networks and No-Code tools
+          </p>
+          <h3 class='modules__item-title-btn'>Topics of study in the module:</h3>
+          <div class='modules__item-btn-wrapper'>
+            <button
+              type='button'
+              class='modules__item-btn bg-btn-one'
+              data-description='This course teaches how to create and automate method statements and flow charts for workflows using<br/>
+ neural networks, Make and CRM systems.<br/>
+<br/>
+Lesson 1: Fundamentals of methodology and flowcharts<br/>
+Lesson 2: Developing documentation with automation<br/>
+Lesson 3: Adapting methodologies and flowcharts to different workflows<br/>
+Lesson 4: Automation Tools: Neural Networks, Make and CRM<br/>
+Lesson 5: Implementation and Performance Monitoring<br/>
+Lesson 6: Practical application and case studies<br/>
+<br/>
+Course participants will develop a system of workflow standardisation, learn how to automate the creation and <br/>
+updating of methodologies and flow charts.'
+              aria-label='Open module 2'
+            >
+              Tech Cards
+              <svg width='9' height='9'>
+                <use href='./img/sprite.svg#arrow-right'></use>
+              </svg>
+            </button>
+            <button
+              type='button'
+              class='modules__item-btn bg-btn-two'
+              data-description='This section of the course will teach how to create routines to optimise workflows, reduce errors and<br/>
+implement a modular approach to increase efficiency.<br/>
+<br/>
+Lesson 1: The Basics of Task Routines<br/>
+Lesson 2: Dividing tasks into subtasks<br/>
+Lesson 3: Developing routines for conveyorised task assembly<br/>
+Lesson 4: Tools and Practices<br/>
+<br/>
+This section will help practitioners develop a clear system of task routines that will speed up the completion of work.'
+              aria-label='Open module 2'
+            >
+              Regulations
+              <svg width='9' height='9'>
+                <use href='./img/sprite.svg#arrow-right'></use>
+              </svg>
+            </button>
+            <button
+              type='button'
+              class='modules__item-btn bg-btn-three'
+              data-description='This section of the course teaches how to modularise tasks to optimise the sequence of execution.<br/>
+<br/>
+Lesson 1: The principles of modularity - improving efficiency by organising tasks into modules.<br/>
+Lesson 2: Decomposition of tasks - dividing tasks into subtasks for optimal performance.<br/>
+Lesson 3: Sequencing - creating an efficient workflow.<br/>
+Lesson 4: Automation and Tools - using neural networks, Make and CRM systems to speed up work and eliminate routine operations.<br/>
+<br/>
+Participants will learn how to optimise processes and speed up tasks through automation and digital solutions.'
+              aria-label='Open module 2'
+            >
+              Automation
+              <svg width='9' height='9'>
+                <use href='./img/sprite.svg#arrow-right'></use>
+              </svg>
+            </button>
+            <button
+              type='button'
+              class='modules__item-btn bg-btn-three'
+              data-description='This section of the course will teach how to use off-the-shelf neural network tools to create models for work <br/>
+tasks such as prediction and classification, with API integration<br/>
+<br/>
+Lesson 1: Introduction to creating step-by-step algorithms for tasks<br/>
+Lesson 2: Off-the-shelf tools for creating and executing step-by-step algorithms<br/>
+Lesson 3: Practice: creating step-by-step scripts for business tasks<br/>
+Lesson 4: Easy API setup for creating step-by-step scripts<br/>
+Lesson 5: Optimising and improving step-by-step algorithms for tasks<br/>
+<br/>
+This section of the course will help you develop efficient algorithms to solve complete work tasks using neural networks.'
+              aria-label='Open module 2'
+            >
+              Algorithms
+              <svg width='9' height='9'>
+                <use href='./img/sprite.svg#arrow-right'></use>
+              </svg>
+            </button>
+          </div>
+          <div class='modules__item-description-wrapper'>
+            <p class='modules__item-description-btn'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button
+              type='button'
+              class='modules__item-btn-close'
+              aria-label='Close module 2'
+            >
+              <svg width='16' height='16'>
+                <use href='./img/sprite.svg#close' />
+              </svg>
+            </button>
+          </div>
+        </li>
+        <li class='modules__item'>
+          <button
+            type='button'
+            class='modules__item-header'
+            aria-label='Open module 3'
+          >
+            <span class='modules__item-title'>Module 3: The foundation</span>
+            <svg width='29' height='29'>
+              <use href='./img/sprite.svg#arrow-right'></use>
+            </svg>
+          </button>
+          <p class='modules__item-description'>
+            Creating a professional AI system for process-based task fulfilment
+          </p>
+          <h3 class='modules__item-title-btn'>Topics of study in the module:</h3>
+          <div class='modules__item-btn-wrapper'>
+            <button
+              type='button'
+              class='modules__item-btn bg-btn-one'
+              data-description='This section of the course will teach you how to create personalised GPT models using out-of-the-box tools<br/>
+and simple interfaces to solve workloads without programming.<br/>
+<br/>
+Lesson 1: Introduction to creating GPTs without programming<br/>
+Lesson 2: Off-the-shelf tools for creating and customising GPTs<br/>
+Lesson 3: Hands-on: Creating and Configuring a Personalised GPT<br/>
+Lesson 4: Using GPTs to solve workloads<br/>
+Lesson 5: Integrating GPTs into Workflows<br/>
+Lesson 6: Optimising and Improving GPT Performance<br/>
+<br/>
+This section will help you configure and personalise GPTs to solve real-world work tasks, and effectively integrate AI into workflows'
+              aria-label='Open module 3'
+            >
+              GPTs
+              <svg width='9' height='9'>
+                <use href='./img/sprite.svg#arrow-right'></use>
+              </svg>
+            </button>
+            <button
+              type='button'
+              class='modules__item-btn bg-btn-two'
+              data-description='The course section will teach you how to integrate multiple personalised GPT models into workflows <br/>
+using Make to automate tasks.<br/>
+<br/>
+Lesson 1: Introduction to creating offline workflows with GPTs<br/>
+Lesson 2: Using neural networks to create different GPTs<br/>
+Lesson 3: Fundamentals of Make: interface, connectivity, customisation<br/>
+Lesson 4: Practice: configuring multiple GPTs in a workflow with Make<br/>
+Lesson 5: Organising workflows using GPTs and Make<br/>
+Lesson 6: Optimising and Improving Workflows with Multiple GPTs<br/>
+<br/>
+This section of the course will teach you how to organise multiple GPTs into self-contained workflows by automating tasks using Make'
+              aria-label='Open module 3'
+            >
+              Integrations
+              <svg width='9' height='9'>
+                <use href='./img/sprite.svg#arrow-right'></use>
+              </svg>
+            </button>
+            <button
+              type='button'
+              class='modules__item-btn bg-btn-three'
+              data-description='This section of the course will teach you how to create and use AI agents to automate workflows, improving speed, accuracy, <br/>
+and task management.<br/>
+<br/>
+Lesson 1: The Role of Digital AI Agents in Workflows<br/>
+Lesson 2: Separating tasks and automating processes with AI agents<br/>
+Lesson 3: Tools for working with digital AI agents<br/>
+Lesson 4: Practising and optimising workflows using AI agents<br/>
+<br/>
+This section will help professionals to effectively use digital AI agents to organise workflows and optimise task performance.'
+              aria-label='Open module 3'
+            >
+              AI agents
+              <svg width='9' height='9'>
+                <use href='./img/sprite.svg#arrow-right'></use>
+              </svg>
+            </button>
+            <button
+              type='button'
+              class='modules__item-btn bg-btn-three'
+              data-description='This section of the course will teach how to create scalable automation systems for autonomous and efficient workflows.<br/>
+<br/>
+Lesson 1: Fundamentals of scaling autonomous workflows<br/>
+Lesson 2: Automating and configuring agile processes in n8n<br/>
+Lesson 3: Structuring and managing data flows for scalable solutions<br/>
+Lesson 4: Integrate and extend capabilities by connecting external services<br/>
+Lesson 5: Performance Analysis and Optimisation for Scalable Systems<br/>
+<br/>
+This section of the course focuses on creating self-contained workflows that can be easily scaled to meet changing tasks<br/>
+and workloads, providing system flexibility and stability.'
+              aria-label='Open module 3'
+            >
+              Data
+              <svg width='9' height='9'>
+                <use href='./img/sprite.svg#arrow-right'></use>
+              </svg>
+            </button>
+          </div>
+          <div class='modules__item-description-wrapper'>
+            <p class='modules__item-description-btn'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button
+              type='button'
+              class='modules__item-btn-close'
+              aria-label='Close module 3'
+            >
+              <svg width='16' height='16'>
+                <use href='./img/sprite.svg#close' />
+              </svg>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id='faq'>
+    <div class='container accordion__container'>
+      <ul class='accordion__list-mobile'>
+        <li class='accordion__item'>
+          <div class='accordion__item-wrapper'>
+            <div class='accordion__item-header'>
+              <div class='accordion__item-img'>
+                <img
+                  srcset='
+                  ./img/accordion/img-1.webp    1x,
+                  ./img/accordion/img-1@2x.webp 2x
+                '
+                  src='./img/accordion/img-1.webp'
+                  alt='avatar 1'
+                  loading='lazy'
+                />
+              </div>
+              <h2 class='accordion__item-header-title'>
+                Stable income from blogging
+              </h2>
+              <svg width='17' height='17'>
+                <use href='./img/sprite.svg#arrow-left' />
+              </svg>
+            </div>
+            <div class='accordion__item-content'>
+              <h3>Growing your blog to a steady income</h3>
+              <p>
+                When I started developing my blog, it was difficult. I lacked time and knowledge, and growth required
+                significant investment. The blog was small, and there were almost no orders for advertising.
+                I was invited to one of the community projects and decided to give it a try. After joining the
+                community,
+                I started actively participating in projects, earning income and developing my blog. Thanks to the
+                streamlined processes and quality materials, I was able to accelerate my progress significantly.
+                Now my income is $3000 per month, mostly thanks to advertising infoproducts and crypto-offers. I am very
+                happy to be part of a strong environment that helps me to grow and develop faster.
+              </p>
+              <h4>Victoria Shevchuk, media blogger</h4>
+            </div>
+          </div>
+        </li>
+        <li class='accordion__item'>
+          <div class='accordion__item-wrapper'>
+            <div class='accordion__item-header'>
+              <div class='accordion__item-img'>
+                <img
+                  srcset='
+                  ./img/accordion/img-2.webp    1x,
+                  ./img/accordion/img-2@2x.webp 2x
+                '
+                  src='./img/accordion/img-2.webp'
+                  alt='avatar 2'
+                  loading='lazy'
+                />
+              </div>
+              <h2 class='accordion__item-header-title'>Launching a fitness course</h2>
+              <svg width='17' height='17'>
+                <use href='./img/sprite.svg#arrow-left' />
+              </svg>
+            </div>
+            <div class='accordion__item-content'>
+              <h3>Fitness course: quick launch and scaling up</h3>
+              <p>
+                Participated in a commercial community project where the launch of an offer took only three days due to
+                the well-established processes. There were six specialists in the team, which allowed for efficient
+                distribution of tasks.
+                The product was a fitness course with a focus on glute training. Promotion through community bloggers
+                reduced advertising costs and increased profits.
+                My first month's income was $1500, and the project scaled thereafter. I cannot publish the details of
+                the
+                project in the public domain.
+              </p>
+              <h4>Andrey Rudenko, IT developer</h4>
+            </div>
+          </div>
+        </li>
+        <li class='accordion__item'>
+          <div class='accordion__item-wrapper'>
+            <div class='accordion__item-header'>
+              <div class='accordion__item-img'>
+                <img
+                  srcset='
+                  ./img/accordion/img-3.webp    1x,
+                  ./img/accordion/img-3@2x.webp 2x
+                '
+                  src='./img/accordion/img-3.webp'
+                  alt='avatar 3'
+                  loading='lazy'
+                />
+              </div>
+              <h2 class='accordion__item-header-title'>
+                Relevant crypto-offers
+              </h2>
+              <svg width='17' height='17'>
+                <use href='./img/sprite.svg#arrow-left' />
+              </svg>
+            </div>
+            <div class='accordion__item-content'>
+              <h3>Crypto-offers with high profitability</h3>
+              <p>
+                After joining the community, I decided to test crypto-offers. The launch was quick thanks to the
+                well-established processes.
+                I quickly reviewed converting creatives, and the tests were inexpensive - only $10.7 per registration.
+                To
+                amplify results, I used an aggressive news preload with the country's president, which yielded a great
+                response.
+                Launched via pharma accounts and auto-regs with cloaca. Worked with Facebook and Instagram, targeting an
+                audience of men and women between the ages of 28 and 67.
+                Made $6,349 net profit in 3 weeks of shedding. 
+              </p>
+              <h4>Anatoly Voitenko, media buyer</h4>
+            </div>
+          </div>
+        </li>
+        <li class='accordion__item'>
+          <div class='accordion__item-wrapper'>
+            <div class='accordion__item-header'>
+              <div class='accordion__item-img'>
+                <img
+                  srcset='
+                  ./img/accordion/img-4.webp    1x,
+                  ./img/accordion/img-4@2x.webp 2x
+                '
+                  src='./img/accordion/img-4.webp'
+                  alt='avatar 4'
+                  loading='lazy'
+                />
+              </div>
+              <h2 class='accordion__item-header-title'>Scaling in the commodity market</h2>
+              <svg width='17' height='17'>
+                <use href='./img/sprite.svg#arrow-left' />
+              </svg>
+            </div>
+            <div class='accordion__item-content'>
+              <h3>Scaling commodity projects</h3>
+              <p>
+                I've been a member of the community for three months now and I'm completely happy with the results. At
+                first I was sceptical about participating in projects, but after talking to the moderators I decided to
+                give it a try. I threw in a few product projects that were not working for me.
+                Thanks to well-built processes, quality analytics and competent positioning, the projects not only began
+                to bring profit, but also scaled significantly. Now I am actively involved in both community projects
+                and
+                my own private projects.
+                During this time I have considerably pumped up my skills and increased my results 4 times.
+              </p>
+              <h4>Svetlana Gumenyuk, entrepreneur</h4>
+            </div>
+          </div>
+        </li>
+        <li class='accordion__item'>
+          <div class='accordion__item-wrapper'>
+            <div class='accordion__item-header'>
+              <div class='accordion__item-img'>
+                <img
+                  srcset='
+                  ./img/accordion/img-5.webp    1x,
+                  ./img/accordion/img-5@2x.webp 2x
+                '
+                  src='./img/accordion/img-5.webp'
+                  alt='avatar 5'
+                  loading='lazy'
+                />
+              </div>
+              <h2 class='accordion__item-header-title'>Blog development strategy</h2>
+              <svg width='17' height='17'>
+                <use href='./img/sprite.svg#arrow-left' />
+              </svg>
+            </div>
+            <div class='accordion__item-content'>
+              <h3>Blog growth through arbitrage auto-funnels</h3>
+              <p>
+                Regarding the community, I immediately realised that it was a great opportunity for growth. In the
+                community I got access to clear strategies, practical cases and a strong environment.
+                Once I started working with arbitrage autofunnels, I significantly accelerated the growth of my blog and
+                increased my income. These autofunnels helped me to work more effectively with advertising, test new
+                approaches and optimise content.
+                I've set up a steady, growing income, and I'm actively growing my blog. The community is a driver for
+                growth and development.
+              </p>
+              <h4>Onishchuk Anastasia, blogging and arbitrage</h4>
+            </div>
+          </div>
+        </li>
+        <li class='accordion__item'>
+          <div class='accordion__item-wrapper'>
+            <div class='accordion__item-header'>
+              <div class='accordion__item-img'>
+                <img
+                  srcset='
+                  ./img/accordion/img-6.webp    1x,
+                  ./img/accordion/img-6@2x.webp 2x
+                '
+                  src='./img/accordion/img-6.webp'
+                  alt='avatar 6'
+                  loading='lazy'
+                />
+              </div>
+              <h2 class='accordion__item-header-title'>
+                Career development plan
+              </h2>
+              <svg width='17' height='17'>
+                <use href='./img/sprite.svg#arrow-left' />
+              </svg>
+            </div>
+            <div class='accordion__item-content'>
+              <h3>From freelancing without results to career growth</h3>
+              <p>
+                Before joining the community, I passed various tests and interviews, but did not get results.
+                Freelancing
+                was also not yielding results due to lack of experience. After joining the community, I started working
+                on
+                commercial projects.
+                Apart from earning opportunities, the community has greatly impacted my career growth. Thanks to the
+                support and resources I received, I was able to achieve results that would have taken me much more time
+                and money without this help.
+                I now work for a good company and continue to develop professionally.
+              </p>
+              <h4>Maria Ivanchuk, motion designer</h4>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <div class='accordion__desktop-wrapper'>
+        <div class='accordion__desktop'>
+          <ul class='accordion__list-desktop'>
+            <li class='accordion__item' data-id='1'>
+              <div class='accordion__item-img'>
+                <img
+                  srcset='
+                  ./img/accordion/img-1.webp    1x,
+                  ./img/accordion/img-1@2x.webp 2x
+                '
+                  src='./img/accordion/img-1.webp'
+                  alt='avatar 1'
+                  loading='lazy'
+                />
+              </div>
+              <h2 class='accordion__item-header-title'>
+                Stable income from blogging
+              </h2>
+            </li>
+            <li class='accordion__item' data-id='2'>
+              <div class='accordion__item-img'>
+                <img
+                  srcset='
+                  ./img/accordion/img-2.webp    1x,
+                  ./img/accordion/img-2@2x.webp 2x
+                '
+                  src='./img/accordion/img-2.webp'
+                  alt='avatar 2'
+                  loading='lazy'
+                />
+              </div>
+              <h2 class='accordion__item-header-title'>Launching a fitness course</h2>
+            </li>
+            <li class='accordion__item' data-id='3'>
+              <div class='accordion__item-img'>
+                <img
+                  srcset='
+                  ./img/accordion/img-3.webp    1x,
+                  ./img/accordion/img-3@2x.webp 2x
+                '
+                  src='./img/accordion/img-3.webp'
+                  alt='avatar 3'
+                  loading='lazy'
+                />
+              </div>
+              <h2 class='accordion__item-header-title'>
+                Relevant crypto-offers
+              </h2>
+            </li>
+            <li class='accordion__item' data-id='4'>
+              <div class='accordion__item-img'>
+                <img
+                  srcset='
+                  ./img/accordion/img-4.webp    1x,
+                  ./img/accordion/img-4@2x.webp 2x
+                '
+                  src='./img/accordion/img-4.webp'
+                  alt='avatar 4'
+                  loading='lazy'
+                />
+              </div>
+              <h2 class='accordion__item-header-title'>Scaling in the commodity market</h2>
+            </li>
+            <li class='accordion__item' data-id='5'>
+              <div class='accordion__item-img'>
+                <img
+                  srcset='
+                  ./img/accordion/img-5.webp    1x,
+                  ./img/accordion/img-5@2x.webp 2x
+                '
+                  src='./img/accordion/img-5.webp'
+                  alt='avatar 5'
+                  loading='lazy'
+                />
+              </div>
+              <h2 class='accordion__item-header-title'>Blog development strategy</h2>
+            </li>
+            <li class='accordion__item' data-id='6'>
+              <div class='accordion__item-img'>
+                <img
+                  srcset='
+                  ./img/accordion/img-6.webp    1x,
+                  ./img/accordion/img-6@2x.webp 2x
+                '
+                  src='./img/accordion/img-6.webp'
+                  alt='avatar 6'
+                  loading='lazy'
+                />
+              </div>
+              <h2 class='accordion__item-header-title'>
+                Career development plan
+              </h2>
+            </li>
+          </ul>
+
+          <div class='accordion__item-content'>
+            <h3 class='accordion__content-title'>Growing your blog to a steady income</h3>
+            <p class='accordion__content-text'>
+              When I started developing my blog, it was difficult. I lacked time and knowledge, and growth required
+              significant investment. The blog was small, and there were almost no orders for advertising.
+              I was invited to one of the community projects and decided to give it a try. After joining the community,
+              I
+              started actively participating in projects, earning income and developing my blog. Thanks to the
+              streamlined
+              processes and quality materials, I was able to accelerate my progress significantly.<br />
+              Now my income is $3000 per month, mostly thanks to advertising infoproducts and crypto-offers. I am very
+              happy to be part of a strong environment that helps me to grow and develop faster.
+            </p>
+
+            <h4 class='accordion__content-footer'>Victoria Shevchuk, media blogger</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class='container plans__container'>
+      <div class='plans__wrapper-title'>
+        <p class='section-name'>Tariffs</p>
+        <h2 class='section-title'>Tariff plan formats</h2>
+        <p class='plans__section-description'>
+          The entry fee is invested in the development of the<br />
+          community.
+        </p>
+      </div>
+
+      <div class='plans__wrapper-cards swiper'>
+        <div class='swiper-wrapper'>
+          <!-- Card 1 -->
+          <div class='swiper-slide'>
+            <div class='plans__card plans__card--one'>
+              <div class='plans__card-inner plans__card-main'>
+                <div class='plans__card-content'>
+                  <h2 class='plans__card-title'>Professional</h2>
+                  <p class='plans__card-subtitle'>
+                    Category Five Access Level
+                  </p>
+
+                  <div class='plans__modules-info'>
+                    <p>Membership fee is</p>
+                  </div>
+                  <div class='plans__price-container'>
+                    <div class='plans__price-month'>
+                      <p class='plans__price'>$10<span>/month</span></p>
+                    </div>
+                  </div>
+                  <div class='plans__divider'></div>
+
+                  <ul class='plans__features'>
+                    <li>Neural Networks and Task Automation 3.0 course, as well as:</li>
+                    <li>Dissection of professional activities by community experts</li>
+                    <li>Optimisation of key tasks in professional workflows</li>
+                    <li>
+                      Formation of career development system
+                    </li>
+                    <li>Access to the closed database of community materials on career development</li>
+                    <li>Participation in commercial projects</li>
+                    <li>Career map of professional development</li>
+                    <li>Career auto-funnel of professional development</li>
+                    <li>Membership in a career development focus group</li>
+                  </ul>
+
+                  <button type='button' class='plans__btn'>Select</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class='swiper-slide'>
+            <div class='plans__card plans__card--two'>
+              <div class='plans__card-inner plans__card-main'>
+                <div class='plans__card-content'>
+                  <h2 class='plans__card-title'>Digital-Smart</h2>
+                  <p class='plans__card-subtitle'>
+                    Category Five Access Level
+                  </p>
+
+                  <div class='plans__modules-info'>
+                    <p>Membership fee is</p>
+                  </div>
+                  <div class='plans__price-container'>
+                    <div class='plans__price-month'>
+                      <p class='plans__price'>$25<span>/month</span></p>
+                    </div>
+                  </div>
+                  <div class='plans__divider'></div>
+
+                  <ul class='plans__features'>
+                    <li>Everything from the Professional rate, as well as:</li>
+                    <li>A breakdown of promotion strategy from digital marketers and top bloggers.</li>
+                    <li>Optimisation of key indicators in media promotion processes.</li>
+                    <li>
+                      Formation of traffic management system
+                    </li>
+                    <li>Access to a closed database of community materials on strategic media promotion</li>
+                    <li>Participation in commercial advertising projects</li>
+                    <li>Media map of content coverage growth points</li>
+                    <li>Membership in a focus group on traffic monetisation strategies.</li>
+                    <li>Media auto-funnel promotion in social networks</li>
+                  </ul>
+
+                  <button type='button' class='plans__btn'>Pay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class='swiper-slide'>
+            <div class='plans__card plans__card--three'>
+              <div class='plans__card-inner'>
+                <div class='plans__card-content'>
+                  <h2 class='plans__card-title'>Enterprise</h2>
+                  <p class='plans__card-subtitle'>
+                    Seventh category access level
+                  <p>
+
+                  <div class='plans__modules-info'>
+                    <p>Membership fee is</p>
+                  </div>
+                  <div class='plans__price-container'>
+                    <div class='plans__price-month'>
+                      <p class='plans__price'>$50<span>/month</span></p>
+                    </div>
+                  </div>
+                  <div class='plans__divider'></div>
+
+                  <ul class='plans__features'>
+                    <li>Everything from the Digital-Smart rate, as well as:</li>
+                    <li>Business model breakdown by moderators and community entrepreneurs.</li>
+                    <li>Optimisation of key indicators in business processes</li>
+                    <li>
+                      Development of a project automation system
+                    <li>
+                    <li>Access to a closed database of community materials on effective business approaches</li>
+                    <li>Participation in the processes of scaling commercial projects</li>
+                    <li>Strategic map for achieving business goals</li>
+                    <li>Focus group membership on methodologies of decomposition and delegation of business tasks</li>
+                    <li>Marketing auto-funnel product line management</li>
+                  </ul>
+
+                  <button type='button' class='plans__btn'>Pay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='swiper-buttons'>
+        <button type='button' class='swiper-button-prev-custom' aria-label='Next'>
+          <svg width='15' height='15'>
+            <use href='./img/sprite.svg#arrow-left' />
+          </svg>
+        </button>
+        <div class='swiper-pagination'></div>
+        <button
+          type='button'
+          class='swiper-button-next-custom'
+          aria-label='Previous'
+        >
+          <svg width='15' height='15'>
+            <use href='./img/sprite.svg#arrow-right' />
+          </svg>
+        </button>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id='about'>
+    <div class='container about__container'>
+      <div class='about__wrapper-title'>
+        <p class='section-name'>Community</p>
+        <h2 class='section-title'>Digital-community for Growth<br />
+          and Opportunity</h2>
+        <p class='about__section-description'>
+          Better an active minority than a passive mass.
+        </p>
+      </div>
+    </div>
+
+    <div class='container about__container'>
+      <div class='about__wrapper'>
+        <div class='about__images'>
+          <picture>
+            <source
+              srcset='
+              ./img/about/about-1-mobile.webp    1x,
+              ./img/about/about-1-mobile@2x.webp 2x
+            '
+              media='(max-width: 1439px)'
+            />
+            <source
+              srcset='
+              ./img/about/about-1-desktop.webp    1x,
+              ./img/about/about-1-desktop@2x.webp 2x
+            '
+              media='(min-width: 1440px)'
+            />
+            <img
+              src='./img/about/about-1-mobile.webp'
+              alt='bitcoin'
+              class='about__img about__img-one active'
+              data-content='values'
+              loading='lazy'
+            />
+          </picture>
+          <picture>
+            <source
+              srcset='
+              ./img/about/about-2-mobile.webp    1x,
+              ./img/about/about-2-mobile@2x.webp 2x
+            '
+              media='(max-width: 1439px)'
+            />
+            <source
+              srcset='
+              ./img/about/about-2-desktop.webp    1x,
+              ./img/about/about-2-desktop@2x.webp 2x
+            '
+              media='(min-width: 1440px)'
+            />
+            <img
+              src='./img/about/about-2-mobile.webp'
+              alt='bitcoin 2'
+              class='about__img about__img-two'
+              data-content='goals'
+              loading='lazy'
+            />
+          </picture>
+        </div>
+
+        <div class='about__content'>
+          <p class='section-name'>About Us</p>
+          <h2 class='section-title section-title--about-title'>
+            <span class='active' data-content='values'>Development Strategy</span>
+            <span data-content='goals'>Strong Solutions Space</span>
+          </h2>
+
+          <div class='about__texts'>
+            <p class='about__text active' data-content='values'>
+              As part of the community's development, crypto projects of various levels of complexity are being
+              implemented, both without and with investments. This area is strategically important for the formation of
+              a strong community expert system in the field of working with crypto-offers.
+            </p>
+            <p class='about__text' data-content='goals'>
+              The community provides access to tools and materials that create working systems for growth and profit. It
+              is home to motivated contributors whose solutions are based on experience and proven systems.
+            </p>
+          </div>
+
+          <div class='about__buttons'>
+            <button
+              type='button'
+              class='about__button-left active'
+              data-tab='values'
+            >
+              Credo
+            </button>
+            <button type='button' class='about__button-right' data-tab='goals'>
+              Value
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<footer class='footer'>
+  <div class='container footer__container'>
+    <div class='footer__bg'>
+      <div class='footer__wrapper-logo'>
+        <a href='/'
+        ><img
+          src='./img/logo.svg'
+          alt='logo'
+          width='119'
+          height='36'
+          loading='lazy'
+        /></a>
+
+        <p>
+          Breaking the rules leads to irrevocable exclusion - we build space for growth and productivity, not chaos.
+        </p>
+        <form action='#' class='footer__wrapper-input'>
+          <input type='email' placeholder='Email Address' />
+          <button type='submit' aria-label='Send'>
+            <svg width='24' height='24'>
+              <use href='./img/sprite.svg#arrow' />
+            </svg>
+          </button>
+        </form>
+        <p class='footer__copyright footer__copyright--desktop'>
+          © 2025 GPD Neuroflex MSB.
+        </p>
+      </div>
+      <div class='footer__wrapper-nav'>
+        <nav class='footer__nav'>
+          <a
+            href='https://t.me'
+            target='_blank'
+            rel='noopener noreferrer'
+            class='footer__nav-telegram'
+          >Telegram</a
+          >
+          <ul class='footer__nav-list'>
+            <li><a href='#LinkedIn'>LinkedIn</a></li>
+            <li><a href='#Facebook'>Facebook</a></li>
+            <li><a href='#Instagram'>Instagram</a></li>
+          </ul>
+        </nav>
+        <div class='footer__wrapper-copyright'>
+          <a href='/privacy'>Privacy policy and terms of service</a>
+          <p class='footer__copyright footer__copyright--mobile'>
+            © 2025 GPD Neuroflex MSB.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class='mobile-menu mobile-menu__is-hidden' data-mobile>
+  <div class='mobile-menu__container'>
+    <div class='mobile-menu__header'>
+      <a href='/' data-mobile-close
+      ><img
+        src='./img/logo.svg'
+        alt='logo'
+        width='119'
+        height='36'
+        loading='lazy'
+      /></a>
+      <button
+        type='button'
+        class='mobile-menu__btn-close'
+        data-mobile-close
+        aria-label='close mobile menu'
+      >
+        <svg width='24' height='24'>
+          <use href='./img/sprite.svg#close' />
+        </svg>
+      </button>
+    </div>
+
+    <nav>
+      <ul class='mobile-menu__nav-list'>
+        <li class='mobile-menu__nav-item' data-mobile-close>
+          <a href='#about'>About</a>
+        </li>
+        <li class='mobile-menu__nav-item' data-mobile-close>
+          <a href='#service'>Service</a>
+        </li>
+        <li class='mobile-menu__nav-item' data-mobile-close>
+          <a href='#token'>Token Sale</a>
+        </li>
+        <li class='mobile-menu__nav-item' data-mobile-close>
+          <a href='#faq'>FAQ’s</a>
+        </li>
+        <li class='mobile-menu__nav-item' data-mobile-close>
+          <a href='#team'>Team</a>
+        </li>
+        <li class='mobile-menu__nav-item' data-mobile-close>
+          <a href='#blog'>Bloq</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button type='button' class='mobile-menu__btn' data-mobile-close>
+      Get in Touch
+    </button>
+  </div>
+</div>
+<div
+  class='mobile-menu__backdrop mobile-menu__is-hidden'
+  data-mobile-backdrop
+></div>
+
+
+<script src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'></script>
+</body>
+</html>
